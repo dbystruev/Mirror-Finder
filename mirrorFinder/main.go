@@ -6,8 +6,6 @@ import (
 	"log"
 	"net/http"
 	"time"
-
-	"github.com/dbystruev/book/chapter1/mirrors"
 )
 
 type response struct {
