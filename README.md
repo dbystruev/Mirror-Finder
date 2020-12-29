@@ -8,7 +8,7 @@ Before installing plesase check that `go env GOPATH` is not empty and is set cor
 
 ```bash
 git clone https://github.com/dbystruev/Mirror-Finder.git $(go env GOPATH)/src/github.com/dbystruev/mirrorFinder
-go install github.com/dbystruev/mirrorFinder/mirrors
+go install github.com/dbystruev/mirrorFinder/mirrorFinder
 $(go env GOPATH)/bin/mirrorFinder
 ```
 
