@@ -4,7 +4,7 @@ Debian closest mirror finder project from [A Hands-On RESTful Web Services with 
 
 ## Install
 
-Before installing plesase check that `go env GOPATH` is not empty and is set correctly.
+Before installing please check that `go env GOPATH` is not empty and is set correctly.
 
 ```bash
 git clone https://github.com/dbystruev/Mirror-Finder.git $(go env GOPATH)/src/github.com/dbystruev/mirrorFinder
