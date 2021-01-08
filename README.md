@@ -47,6 +47,6 @@ go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/multipleHandl
 cd $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/httprouterExample
 go run main.go
 ```
-[localhost:8000/api/v1/go-version](http://localhost:8000/api/v1/go-version)
-[localhost:8000/api/v1/show-file/greek.txt](http://localhost:8000/api/v1/show-file/greek.txt)
+[localhost:8000/api/v1/go-version](http://localhost:8000/api/v1/go-version)  
+[localhost:8000/api/v1/show-file/greek.txt](http://localhost:8000/api/v1/show-file/greek.txt)  
 [localhost:8000/api/v1/show-file/latin.txt](http://localhost:8000/api/v1/show-file/latin.txt)
