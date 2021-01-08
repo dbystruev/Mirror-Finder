@@ -12,7 +12,7 @@ git clone https://github.com/dbystruev/handsOnRestfulGo.git $(go env GOPATH)/src
 
 ## Stopping
 
-If running a project in background (with `&`), use ``kill `lsof -t -i:8000` `` or ``sudo kill `sudo lsof -t -i:8000` `` to kill it.
+If running a project in background (with `&`) on port 8000, use ``kill `lsof -t -i:8000` `` or ``sudo kill `sudo lsof -t -i:8000` `` to kill it.
 
 ## Projects
 
