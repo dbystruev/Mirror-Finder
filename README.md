@@ -10,6 +10,10 @@ Before installing please check that `go env GOPATH` and `$GOPATH` are not empty 
 git clone https://github.com/dbystruev/handsOnRestfulGo.git $(go env GOPATH)/src/github.com/dbystruev/handsOnRestfulGo
 ```
 
+## Stopping
+
+If running a project in background (with `&`), use ``kill `lsof -t -i:8000` `` or ``sudo kill `sudo lsof -t -i:8000` `` to kill it.
+
 ## Projects
 
 ### Chapter 1: Hello
@@ -44,9 +48,18 @@ go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/multipleHandl
 
 ### Chapter 2: HTTP Router Example
 ```bash
-cd $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/httprouterExample
-go run main.go
+cd $GOPATH/src/github.com/dbystruev/handsOnRestfulGo
+go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/httprouterExample/main.go
 ```
 [localhost:8000/api/v1/go-version](http://localhost:8000/api/v1/go-version)  
 [localhost:8000/api/v1/show-file/greek.txt](http://localhost:8000/api/v1/show-file/greek.txt)  
 [localhost:8000/api/v1/show-file/latin.txt](http://localhost:8000/api/v1/show-file/latin.txt)
+
+### Chapter 2: Static File Server
+```bash
+cd $GOPATH/src/github.com/dbystruev/handsOnRestfulGo
+go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/fileServer/main.go
+```
+[localhost:8000/static](localhost:8000/static)
+[localhost:8000/static/greek.txt](http://localhost:8000/static/greek.txt)
+[localhost:8000/static/latin.txt](http://localhost:8000/static/latin.txt)

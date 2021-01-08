@@ -29,5 +29,5 @@ func goVersion(w http.ResponseWriter, r *http.Request, params httprouter.Params)
 
 func getFileContent(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
 	name := params.ByName("name")
-	fmt.Fprintf(w, getCommandOutput("/bin/cat", name))
+	fmt.Fprintf(w, getCommandOutput("/bin/cat", "static/" + name))
 }
