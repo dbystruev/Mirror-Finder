@@ -60,6 +60,6 @@ go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/httprouterExa
 cd $GOPATH/src/github.com/dbystruev/handsOnRestfulGo
 go run $GOPATH/src/github.com/dbystruev/handsOnRestfulGo/chapter02/fileServer/main.go
 ```
-[localhost:8000/static](localhost:8000/static)
-[localhost:8000/static/greek.txt](http://localhost:8000/static/greek.txt)
+[localhost:8000/static](http://localhost:8000/static)  
+[localhost:8000/static/greek.txt](http://localhost:8000/static/greek.txt)  
 [localhost:8000/static/latin.txt](http://localhost:8000/static/latin.txt)
